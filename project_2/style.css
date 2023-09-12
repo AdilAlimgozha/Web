@@ -1,0 +1,403 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+header, .home{
+    background-image: url("images/matt-gross-RO3-oMM3s8A-unsplash.jpg");
+}
+
+body{
+    color: #FFF;
+}
+
+header{
+    padding-left: 122px;
+    padding-right: 456px;
+    padding-top: 47px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu_link{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu_link:hover{
+    color: lightblue;
+}
+
+
+
+
+.print_MP{
+    padding-left: 115px;
+    padding-top: 164px;
+    width: 412px;
+    height: 264px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Kenia;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.print_big{
+    padding-left: 122px;
+    padding-top: 175px;
+    width: 290px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabel{
+    margin: -175px 0 0 -50px;
+}
+
+.phone{
+    z-index: 1;
+}
+
+
+
+
+.footer{
+    background-color: black;
+    font-family: Montserrat;
+}
+
+.footer_lists{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 100px;
+    padding-top: 50px;
+    list-style: none
+}
+
+.footer_list_1{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer_list_1_element{
+    margin-top: 15px;
+}
+
+.footer_list_2{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer_list_2_element{
+    margin-top: 15px;
+}
+
+.footer_list_3{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer_list_3_element{
+    margin-top: 15px;
+}
+
+.footer_list_1_link, .footer_list_2_link, .footer_list_3_link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_list_1_name, .footer_list_2_name, .footer_list_3_name{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer_list_1_link:hover, .footer_list_2_link:hover, .footer_list_3_link:hover{
+    color:lightblue;
+}
+
+.bottom{
+    display: flex;
+    padding-top: 76px;
+    padding-left: 110px;
+    padding-bottom: 74px;
+    align-items: end;
+}
+
+.footer_MP{
+    font-family: Kenia;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 138px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.rules{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_list_help{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 99px;
+    list-style: none
+}
+
+.footer_list_help_link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_list_help_link:hover{
+    color: lightblue;
+}
+
+
+.music{
+    font-family: Karla;
+    background-color: #D53005;;
+    padding-left: 122px;
+    padding-top: 83px;
+    padding-bottom: 178.5px;
+}
+
+.print_music{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button_listen_now{
+    width: 382px;
+    height: 83px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    margin-bottom: 106px;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button_find_a_song{
+    width: 382px;
+    height: 83px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.image_music{
+    width: 1000px;
+    height: 666.5px;
+    flex-shrink: 0;
+}
+
+.about{
+    background: linear-gradient(180deg, #D53005 0%, #000 6.04%);
+    padding-top: 83px;
+    font-family: Karla;
+    color: #FFF;
+}
+
+.print_about{
+    padding-bottom: 358px;
+    padding-left: 122px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_about{
+    padding-left: 275px;
+    padding-bottom: 476px;
+    padding-right: 196px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.store{
+    background: #D53005;
+    padding-top: 83px;
+}
+
+.print_store{
+    padding-left: 122px;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.face{
+    display: flex;
+    justify-content:space-between;
+}
+
+.buttons_text{
+    margin-right: -50px;
+}
+
+.buttons{
+    padding-left: 110px;
+}
+
+.button_windows{
+    margin-bottom: 53px;
+    margin-top: 141px;
+    border-radius: 30px;
+    background: rgba(2, 2, 2, 0.90);
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_mac{
+    margin-bottom: 140px;
+    border-radius: 30px;
+    background: #E3E3E3;
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hint{
+    padding-left: 25px;
+    padding-bottom: 17px;
+    width: 419px;
+    height: 28px;
+    flex-shrink: 0;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text_previous{
+    padding-left: 19px;
+    width: 431px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_but_1{
+    margin-left: 48px;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.text_but_2{
+    margin-left: 48px;
+    width: 145px;
+    height: 50px;
+    flex-shrink: 0;
+}

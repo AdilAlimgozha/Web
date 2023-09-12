@@ -1,0 +1,136 @@
+/*body{
+    background: blue;
+    color: white;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: yellow;
+}
+
+p{
+    color: black;
+}
+
+p#pink{
+    color: pink;
+}
+
+p.pink{
+    color: pink;
+}
+
+h1,h2,h3{
+    color: green;
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 14px;
+}
+
+p *{
+    color: green;
+    font-weight: bold;
+}*/
+
+/*p>span{
+    color: orange;
+    font-weight: bold;
+}
+
+br+em{
+    color:orange
+}*/
+
+p:first-letter{
+    color: red;
+}
+
+p:first-line{
+    color: blue;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+body{
+    color:green;
+}
+h1{
+    color:#FF0000;
+}
+h2{
+    color:rgb(255,0,0);
+}
+
+body{
+    background-image:url(berserk-guts.gif);
+    background-color:#243CED;
+    color:yellow;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+p#sn, p#so, p#si{
+    font-family: Verdana, sans-serif;
+}
+p#so{
+    font-variant:small-caps;
+}
+p#so{
+    font-weight:bold;
+}
+
+p#sn, p#so, p#si{
+    font-family:  Verdana, sans-serif;
+    font-size:12px;
+}
+p#so{
+    font-size:1.2em;
+}
+p#si{
+    font-size:0.8em;
+}
+a{
+    text-decoration:none;
+    text-align:center;
+}
+a:hover{
+    text-decoration:underline;
+}
+p{
+    text-indent:1.2em;
+}
+p#sc{
+    text-transform:capitalize;
+}
+p#su{
+    text-transform:uppercase;
+}
+  p#sl{
+    text-transform:lowercase;
+}
+
+p{
+    border:1px solid red;
+    padding:10px;
+    margin:50px;
+    width:100px;
+    height:50px;
+  }
